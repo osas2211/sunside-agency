@@ -252,6 +252,9 @@ a.btn-fancy {
   word-spacing: 6px;
   letter-spacing: 5px; }
 
+.mobile-nav {
+  display: none; }
+
 .body {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -382,10 +385,11 @@ a.btn-fancy {
     display: none; }
   .home .header {
     position: relative; }
-    .home .header .mobile-nav {
-      position: absolute;
-      top: 2rem;
-      right: 2rem; }
+  .mobile-nav {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 1rem; }
   .body {
     display: flex;
     flex-direction: column;

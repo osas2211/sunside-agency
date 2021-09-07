@@ -8,12 +8,14 @@
         }
         .header{
             position: relative;
-            .mobile-nav{
-                position: absolute;
-                top: 2rem;
-                right: 2rem;
-            }
         }
+    }
+
+    .mobile-nav{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
     }
     .body{
         display: flex;
