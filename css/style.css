@@ -341,3 +341,7 @@ a.btn-fancy {
       color: #a7abae;
       text-transform: capitalize;
       font-size: 13px; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
