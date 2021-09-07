@@ -15,9 +15,10 @@ a.btn{
 }
 
 .btn-fancy{
-    display: block;
+    display: inline-block;
     position: relative;
     font-family: $heading-font;
+    color: $desat-blue;
 
     &::after{
         content: "";
@@ -25,9 +26,9 @@ a.btn{
         background-color: $color-yellow;
         opacity: 0.6;
         bottom: 0;
-        left: -2px;
+        left: 0px;
         z-index: -1;
-        min-width: 24%;
+        width: 100%;
         min-height: 50%;
         border-radius: 20px;
     }

@@ -1,0 +1,38 @@
+.main-footer{
+    color: $footer-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background-color: $footer-bg;
+
+    h2{
+        font-family: $heading-font;
+        font-size: 2rem;
+    }
+
+    ul{
+        padding: 0;
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+        font-family: $primary-font;
+        transition: .2s;
+        &:not(:last-child){
+            padding-right: 2rem;
+        }
+        &:hover{
+            color: #fff;
+        }
+    }
+    a{
+        display: inline-block;
+        transition: .2s;
+        &:not(:last-child){
+            padding-right: 1.3rem;
+        }
+    }
+}

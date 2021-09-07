@@ -1,7 +1,7 @@
 .home{
     background-image: url("../images/image-header.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     height: 100vh;
     max-width: 100vw;
@@ -9,9 +9,9 @@
 }
 
 .home-hero{
-    padding-top: 9rem;
+    margin-top: 3rem;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     text-transform: uppercase;
     word-spacing: 6px;
     letter-spacing: 5px;

@@ -1,0 +1,72 @@
+@media (max-width: 700px) {
+    .home{
+        .arrow{
+            margin-top: -2rem;
+        }
+        .nav{
+            display: none;
+        }
+        .header{
+            position: relative;
+            .mobile-nav{
+                position: absolute;
+                top: 2rem;
+                right: 2rem;
+            }
+        }
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .text{
+            padding: 4rem;
+        }
+        
+        .g1{
+            order: 2;
+        }
+        .g2{
+            order: 1;
+        }
+        .g3{
+            order: 3;
+        }
+        .g4{
+            order: 4;
+            margin: 0;
+        }
+        .g5{
+            margin: 0;
+            order: 5;
+            height: 35rem;
+        }
+        .g6{
+            margin-top: -6px;
+            order: 6;
+            height: 35rem;
+        }
+    }
+
+    .text-2{
+        bottom: 2rem;
+        padding: 2rem 2rem;
+    }
+    .testimonial{
+        h2{
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .testimonial-grid{
+        grid-template-columns: 1fr;
+
+        .client{
+            margin-top: 5rem;
+        }
+    }
+
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
