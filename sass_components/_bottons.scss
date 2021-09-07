@@ -17,6 +17,7 @@ a.btn{
 .btn-fancy{
     display: block;
     position: relative;
+    font-family: $heading-font;
 
     &::after{
         content: "";

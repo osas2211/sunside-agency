@@ -4,8 +4,10 @@
     width: 95%;
     color: white;
     text-transform: capitalize;
+    font-family: $primary-font;
 
     .btn{
         font-weight: 700;
+        font-family: $heading-font;
     }
 }
