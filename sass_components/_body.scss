@@ -52,3 +52,64 @@
 .photography{
     color: $photography-text;
 }
+
+
+.testimonial{
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 8rem;
+    h2{
+        font-size: 1.2rem;
+        font-family: $heading-font;
+        text-transform: uppercase;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+        color: $grayish-blue;
+    }
+
+}
+
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+
+    .profile-img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .client{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0 0.5rem;
+        p{
+            font-family: $primary-font;
+            font-size: 18px;
+            color: $vd-grayish-blue;
+            line-height: 30px;
+        }
+        .bold{
+            font-family: $heading-font;
+            color: $desat-blue;
+            font-weight: 900;
+        }
+
+        .faint{
+            color: $grayish-blue;
+            text-transform: capitalize;
+            font-size: 13px;
+        }
+    }
+}

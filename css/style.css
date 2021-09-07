@@ -295,3 +295,49 @@ a.btn-fancy {
 
 .photography {
   color: #19536b; }
+
+.testimonial {
+  text-align: center;
+  margin-top: 9rem;
+  margin-bottom: 8rem; }
+  .testimonial h2 {
+    font-size: 1.2rem;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    color: #a7abae; }
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto; }
+  .testimonial-grid .profile-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%; }
+    .testimonial-grid .profile-img img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%; }
+  .testimonial-grid .client {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 0.5rem; }
+    .testimonial-grid .client p {
+      font-family: "Barlow", Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color: #5a636c;
+      line-height: 30px; }
+    .testimonial-grid .client .bold {
+      font-family: "Fraunces", Arial, Helvetica, sans-serif;
+      color: #23303e;
+      font-weight: 900; }
+    .testimonial-grid .client .faint {
+      color: #a7abae;
+      text-transform: capitalize;
+      font-size: 13px; }
