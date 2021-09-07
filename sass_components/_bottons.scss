@@ -34,6 +34,20 @@ a.btn{
     }
 }
 
+.btn-fancy-1{
+    &::after{
+        background-color: $color-yellow;
+    }
+}
+
+.btn-fancy-2{
+    &::after{
+        background-color: $color-soft-red;
+    }
+}
+
+
+
 a.btn-fancy{
     text-transform: uppercase;
     font-weight: 700;

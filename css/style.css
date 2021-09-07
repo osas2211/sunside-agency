@@ -218,6 +218,12 @@ a.btn {
     min-height: 50%;
     border-radius: 20px; }
 
+.btn-fancy-1::after {
+  background-color: #fad400; }
+
+.btn-fancy-2::after {
+  background-color: #fe7867; }
+
 a.btn-fancy {
   text-transform: uppercase;
   font-weight: 700;
