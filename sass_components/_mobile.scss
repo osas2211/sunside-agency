@@ -1,7 +1,15 @@
 @media (max-width: 700px) {
     .home{
+        background-position: bottom;
+        max-height: 100vh;
+        background-size: cover;
+        .home-hero{
+            p{
+                margin-top: 5rem;
+            }
+        }
         .arrow{
-            margin-top: -2rem;
+            margin-top: 2rem;
         }
         .nav{
             display: none;
@@ -22,7 +30,7 @@
         flex-direction: column;
         text-align: center;
         .text{
-            padding: 4rem;
+            padding: 2rem;
         }
         
         .g1{
@@ -56,7 +64,7 @@
     }
     .testimonial{
         h2{
-            font-size: 1.1rem;
+            font-size: 1rem;
             margin-bottom: 1rem;
         }
     }

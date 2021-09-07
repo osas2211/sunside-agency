@@ -193,13 +193,11 @@ a {
   background: #fff;
   border-radius: 30px;
   text-transform: uppercase;
-  transition: .5s ease-in-out; }
+  transition: .5s ease-in-out;
+  color: #23303e; }
   .btn:hover {
     background: rgba(255, 255, 255, 0.308);
     color: #fff; }
-
-a.btn {
-  color: #000; }
 
 .btn-fancy {
   display: inline-block;
@@ -238,8 +236,7 @@ a.btn-fancy {
   font-family: "Barlow", Arial, Helvetica, sans-serif; }
   .main-header .btn {
     font-weight: 700;
-    font-family: "Fraunces", Arial, Helvetica, sans-serif;
-    color: #23303e; }
+    font-family: "Fraunces", Arial, Helvetica, sans-serif; }
 
 .home {
   background-image: url("../images/image-header.jpg");
@@ -385,12 +382,18 @@ a.btn-fancy {
       padding-right: 1.3rem; }
 
 @media (max-width: 700px) {
-  .home .arrow {
-    margin-top: -2rem; }
-  .home .nav {
-    display: none; }
-  .home .header {
-    position: relative; }
+  .home {
+    background-position: bottom;
+    max-height: 100vh;
+    background-size: cover; }
+    .home .home-hero p {
+      margin-top: 5rem; }
+    .home .arrow {
+      margin-top: 2rem; }
+    .home .nav {
+      display: none; }
+    .home .header {
+      position: relative; }
   .mobile-nav {
     display: block;
     position: absolute;
@@ -401,7 +404,7 @@ a.btn-fancy {
     flex-direction: column;
     text-align: center; }
     .body .text {
-      padding: 4rem; }
+      padding: 2rem; }
     .body .g1 {
       order: 2; }
     .body .g2 {
@@ -423,7 +426,7 @@ a.btn-fancy {
     bottom: 2rem;
     padding: 2rem 2rem; }
   .testimonial h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem; }
   .testimonial-grid {
     grid-template-columns: 1fr; }
