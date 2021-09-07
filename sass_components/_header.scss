@@ -1,0 +1,11 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    color: white;
+    text-transform: capitalize;
+
+    .btn{
+        font-weight: 700;
+    }
+}

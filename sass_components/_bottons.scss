@@ -1,0 +1,39 @@
+.btn{
+    padding: 1rem 2.3rem;
+    background: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    &:hover{
+        background: rgba(255, 255, 255, 0.308);
+        color: #fff;
+    }
+}
+
+a.btn{
+    color: #000;
+}
+
+.btn-fancy{
+    display: block;
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: $color-yellow;
+        opacity: 0.6;
+        bottom: 0;
+        left: -2px;
+        z-index: -1;
+        min-width: 24%;
+        min-height: 50%;
+        border-radius: 20px;
+    }
+}
+
+a.btn-fancy{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
