@@ -253,13 +253,16 @@ a.btn-fancy {
 .home-hero {
   margin-top: 3rem;
   color: #fff;
-  font-size: 3.1rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   word-spacing: 6px;
   letter-spacing: 5px; }
 
 .mobile-nav {
   display: none; }
+
+.arrow {
+  margin-top: 5rem; }
 
 .body {
   display: grid;
@@ -384,19 +387,45 @@ a.btn-fancy {
     .main-footer a:not(:last-child) {
       padding-right: 1.3rem; }
 
+@media (max-width: 950px) {
+  .home {
+    background-image: url("../images/desktop/image-header.jpg");
+    max-height: 50vh;
+    background-position: top; }
+  .home-hero {
+    margin-top: 2rem;
+    font-size: 2rem; }
+  .arrow {
+    margin-top: 2rem; }
+  .text {
+    padding: 3rem; }
+    .text h2 {
+      font-size: 1.5rem; }
+  .text-2 {
+    bottom: 0rem;
+    text-align: center;
+    padding: 1rem 3rem; }
+    .text-2 h2 {
+      font-family: "Fraunces", Arial, Helvetica, sans-serif;
+      font-size: 1rem; } }
+
 @media (max-width: 700px) {
   .home {
     background-image: url("../images/mobile/image-header.jpg");
-    max-height: 100vh;
-    background-size: cover; }
-    .home .home-hero p {
-      margin-top: 5rem; }
-    .home .arrow {
-      margin-top: 2rem; }
+    max-height: 80vh;
+    background-size: cover;
+    background-position: bottom; }
     .home .nav {
       display: none; }
     .home .header {
       position: relative; }
+  .home-hero {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 5px; }
   .mobile-nav {
     display: block;
     position: absolute;
@@ -425,9 +454,21 @@ a.btn-fancy {
       margin-top: -6px;
       order: 6;
       height: 35rem; }
+  .text {
+    padding: 2rem; }
+    .text h2 {
+      font-size: 2rem;
+      font-family: "Fraunces", Arial, Helvetica, sans-serif;
+      color: #23303e; }
+    .text p {
+      font-family: "Barlow", Arial, Helvetica, sans-serif;
+      line-height: 25px;
+      color: #818498; }
   .text-2 {
     bottom: 2rem;
     padding: 2rem 2rem; }
+    .text-2 h2 {
+      font-size: 1.7rem; }
   .testimonial h2 {
     font-size: 1rem;
     margin-bottom: 1rem; }
