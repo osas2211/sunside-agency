@@ -5,8 +5,8 @@
         background-position: top;
     }
     .home-hero{
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-top: 5rem;
+        font-size: 2.5rem;
     }
     .arrow{
         margin-top: 2rem;
@@ -15,7 +15,10 @@
     .text{
         padding: 3rem;
         h2{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 0.7rem;
         }
     }
     .text-2{
@@ -32,7 +35,7 @@
 @media (max-width: 700px) {
     .home{
         background-image: url("../images/mobile/image-header.jpg");
-        max-height: 80vh;
+        max-height: 60vh;
         background-size: cover;
         background-position: bottom;
         .nav{
@@ -100,6 +103,7 @@
             font-family: $primary-font;
             line-height: 25px;
             color: $d-grayish-blue;
+            font-size: 1rem;
         }
     }
 
