@@ -387,7 +387,7 @@ a.btn-fancy {
     .main-footer a:not(:last-child) {
       padding-right: 1.3rem; }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .home {
     background-image: url("../images/desktop/image-header.jpg");
     max-height: 50vh;
@@ -420,7 +420,7 @@ a.btn-fancy {
     .home .header {
       position: relative; }
   .home-hero {
-    margin-top: 2rem;
+    margin-top: 6rem;
     color: #fff;
     font-size: 3.1rem;
     text-transform: uppercase;
