@@ -400,7 +400,7 @@ a.btn-fancy {
     margin-top: 12rem;
     font-size: 3.5rem; }
   .arrow {
-    margin-top: 5rem; }
+    margin-top: 8rem; }
   .text {
     padding: 3rem; }
     .text h2 {
@@ -528,4 +528,4 @@ a.btn-fancy {
   .gallery {
     grid-template-columns: 1fr 1fr; }
   .arrow {
-    margin-top: 8rem; } }
+    margin-top: 6rem; } }

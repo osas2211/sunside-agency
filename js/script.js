@@ -8,6 +8,4 @@ m_nav.addEventListener("click", (e)=>{
     else{
         m_nav_menu.className = "mobile-nav-menu hide";
     }
-
-    
 })
