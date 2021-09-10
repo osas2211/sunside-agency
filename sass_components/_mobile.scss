@@ -1,48 +1,16 @@
-@media (max-width: 1000px) {
-    .home{
-        background-image: url("../images/desktop/image-header.jpg");
-        max-height: 50vh;
-        background-position: top;
-    }
-    .home-hero{
-        margin-top: 5rem;
-        font-size: 3.5rem;
-    }
-    .arrow{
-        margin-top: 2rem;
-    }
-
-    .text{
-        padding: 3rem;
-        h2{
-            font-size: 1.2rem;
-        }
-        p{
-            font-size: 0.7rem;
-        }
-    }
-    .text-2{
-        h2{
-            font-family: $heading-font;
-            font-size: 1rem;
-        }
-        bottom: 0rem;
-        text-align: center;
-        padding: 1rem 3rem;
-    }
-}
-
 @media (max-width: 700px) {
     .home{
         background-image: url("../images/mobile/image-header.jpg");
-        max-height: 60vh;
+        max-height: 80vh;
         background-size: cover;
         background-position: bottom;
+        overflow: hidden;
         .nav{
             display: none;
         }
-        .header{
+        .main-header{
             position: relative;
+            z-index: 5;
         }
     }
     .home-hero{
@@ -54,11 +22,61 @@
         letter-spacing: 5px;
     }
 
+    .pr-2{
+        padding-right: 0;
+    }
     .mobile-nav{
         display: block;
         position: absolute;
         top: 2rem;
         right: 1rem;
+    }
+    .btn{
+        background-color: $color-yellow;
+        &:hover{
+            background-color: $grayish-blue;
+        }
+    }
+    .mobile-nav-menu{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 8rem;
+        left: 50%;
+        background-color: #fff;
+        padding: 2rem 2rem;
+        width: 90%;
+        height: 20rem;
+        transition: .5s ease-in-out;
+
+        .m-nav{
+            color: $d-grayish-blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            &::before{
+                content: "";
+                min-height: 8rem;
+                min-width: 8rem;
+                background-color: #fff;
+                position: absolute;
+                top: -3rem;
+                right: 0;
+                clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+            }
+        }
+
+    }
+    .hide{
+        transform: translateX(150%);
+    }
+    .show{
+        transform: translateX(-50%)
     }
     .body{
         display: flex;
@@ -130,5 +148,9 @@
 
     .gallery{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .arrow{
+        margin-top: 5rem;
     }
 }
