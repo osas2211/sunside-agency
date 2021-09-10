@@ -397,7 +397,7 @@ a.btn-fancy {
     max-height: 50vh;
     background-position: top; }
   .home-hero {
-    margin-top: 7rem;
+    margin-top: 12rem;
     font-size: 3.5rem; }
   .arrow {
     margin-top: 5rem; }
@@ -428,7 +428,7 @@ a.btn-fancy {
       position: relative;
       z-index: 5; }
   .home-hero {
-    margin-top: 2rem;
+    margin-top: 6rem;
     color: #fff;
     font-size: 2.8rem;
     text-transform: uppercase;
@@ -528,4 +528,4 @@ a.btn-fancy {
   .gallery {
     grid-template-columns: 1fr 1fr; }
   .arrow {
-    margin-top: 5rem; } }
+    margin-top: 8rem; } }
